@@ -27,4 +27,4 @@ gh pr create --base master --head update_logo --title "Update logo and link" --b
 # Step 8: Merge PR
 gh pr merge --merge
 
-# REPO_URL https://github.com/KeithJames93/My-Blog
+# REPO_URL https://github.com/KeithJames93/my-app
