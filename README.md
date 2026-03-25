@@ -1,40 +1,47 @@
 my-app
-This repository contains a React application created as part of a workflow assignment involving Git, GitHub, branching, pull requests, and command documentation.
+This repository contains a React application created as part of a workflow assignment demonstrating Git, GitHub, branching, pull requests, and command documentation. The project includes modifications to the default React template and a complete record of all commands used throughout the process.
 
-The project demonstrates the following:
+Overview
+The project was generated using the create-react-app tool and then modified on a feature branch. The workflow includes:
 
-Creating a React app using create-react-app
+Creating a new React application
 
 Initializing a Git repository
 
 Creating and pushing a public GitHub repository using GitHub CLI
 
-Working with branches
+Creating and switching to a feature branch
 
-Updating project assets (logo and link)
+Updating the default React logo
+
+Updating the default link in App.js
+
+Committing and pushing changes
 
 Creating and merging a pull request using GitHub CLI
 
-Documenting all commands used in a command.sh file
+Documenting all commands in a command.sh file
 
-Project Overview
-The application was generated using:
+These steps demonstrate a complete and practical Git/GitHub workflow.
 
-Code
-npx create-react-app my-app
-Two modifications were made:
+Project Modifications
+Two changes were made to the default React template:
 
-The default React logo was replaced with a new SVG logo from Propeller Aero.
+Logo Update  
+The default React logo (src/logo.svg) was replaced with a new SVG from Propeller Aero.
 
-The default React documentation link in App.js was replaced with a link to Propeller Aero’s DirtMate page.
+Link Update  
+The default link in src/App.js was updated to point to the Propeller Aero DirtMate page.
 
-These changes were committed on a separate branch (update_logo) and merged into master via a pull request.
+These updates were performed on a dedicated branch (update_logo) and merged into master through a pull request.
 
 Repository Structure
 Code
 my-app/
   public/
   src/
+    App.js
+    logo.svg
   command.sh
   package.json
   package-lock.json
@@ -44,9 +51,11 @@ src/logo.svg — Updated logo
 
 src/App.js — Updated link
 
-command.sh — Contains all commands used from steps 1–8, including the repository URL
+command.sh — Contains all commands used in steps 1–8, including the repository URL
 
-How to Run the Project
+Running the Project
+To run the application locally:
+
 Clone the repository:
 
 Code
@@ -59,7 +68,28 @@ Start the development server:
 
 Code
 npm start
-The app will run at:
+The application will be available at:
 
 Code
 http://localhost:3000
+Assignment Requirements Completed
+This repository includes:
+
+A React application created with create-react-app
+
+A Git repository initialized locally
+
+A public GitHub repository created using GitHub CLI
+
+A feature branch (update_logo)
+
+Updated logo and link
+
+A pull request created and merged using GitHub CLI
+
+A command.sh file documenting all commands used
+
+A clean and complete project structure
+
+Additional Notes
+The command.sh file serves as a full record of the workflow and includes the repository URL as required. The project remains simple by design, focusing on demonstrating correct Git and GitHub usage rather than application complexity.
